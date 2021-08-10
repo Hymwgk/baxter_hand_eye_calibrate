@@ -10,7 +10,16 @@ typora-root-url: ./
 1. 需要安装easy_handeye包;参看https://github.com/IFL-CAMP/easy_handeye；
 2. 安装了baxter相关的ROS包；
 
+## 安装
 
+1. 克隆到catkin工作空间中
+
+   ```bash
+   cd ~/catkin_ws/src
+   git clone https://github.com/Hymwgk/baxter_hand_eye_calibrate.git
+   cd ..
+   catkin_make
+   ```
 
 ## 标定
 
