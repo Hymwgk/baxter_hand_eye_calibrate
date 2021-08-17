@@ -78,9 +78,19 @@ typora-root-url: ./
    roslaunch baxter_hand_eye_calibrate  baxter_eob.launch
    ```
 
+8. 注意，在最后计算的时候选择第一个解算器，好像效果好一些
+
+   
+
+
+
+
+
 ## 已标定&使用
 
-1. 发布手眼姿态矩阵
+1. 重新启动moveit，否则会导致接收的tf关系报错
+
+2. 发布手眼姿态矩阵
 
    ```bash
    cd ~/catkin_ws 
@@ -88,7 +98,7 @@ typora-root-url: ./
    roslaunch baxter_hand_eye_calibrate publish_baxter_eob.launch
    ```
 
-2. 可以在RVIZ界面添加点云话题，看到具体的标情况
+3. 可以在RVIZ界面添加点云话题，看到具体的标情况
 
    <img src="pic/image-20210810160151860.png" alt="image-20210810160151860" style="zoom:67%;" />
 
