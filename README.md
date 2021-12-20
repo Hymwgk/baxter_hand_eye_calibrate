@@ -74,7 +74,7 @@ typora-root-url: ./
 
    ```bash
    cd ~/catkin_ws
-   source panda_client.sh 
+   . baxter.sh 
    roslaunch baxter_hand_eye_calibrate  baxter_eob.launch
    ```
 
